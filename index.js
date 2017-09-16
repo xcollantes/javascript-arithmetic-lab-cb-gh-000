@@ -3,7 +3,7 @@ function add(a, b)
   return a + b;
 }
 
-function substract(a, b)
+function subtract(a, b)
 {
   return a - b;
 }
@@ -19,12 +19,12 @@ function divide(a, b)
 
 function inc(a)
 {
-  return a++;
+  return ++a;
 }
 
 function dec(a)
 {
-  return a--;
+  return --a;
 }
 
 function makeInt(a)
